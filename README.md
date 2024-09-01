@@ -2,9 +2,12 @@ Redux is a state management library for JavaScript applications. It provides a c
 
 State: The data that represents the current state of your application. It's stored in a single object called the store.
 
+
 Actions: Plain JavaScript objects that describe the changes you want to make to the state. They're like commands or requests.
 
+
 Reducers: Pure functions that take the current state and an action as input and return a new state. They're responsible for updating the state based on the action.
+
 
 Store: The central object that holds the application's state. It dispatches actions and calls reducers to update the state.
 
