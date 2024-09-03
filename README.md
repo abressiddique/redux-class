@@ -1,5 +1,6 @@
 Redux is a state management library for JavaScript applications. It provides a centralized store to manage the application's state, making it easier to understand, maintain, and debug. Here's a breakdown of its key concepts:
 
+
 State: The data that represents the current state of your application. It's stored in a single object called the store.
 
 
@@ -10,6 +11,7 @@ Reducers: Pure functions that take the current state and an action as input and 
 
 
 Store: The central object that holds the application's state. It dispatches actions and calls reducers to update the state.
+
 
 basically in easy terms redux helps us to  store the state of the different state that your application have and that state is stored and it can be access anywhere in yoru application
 and we use dispatch to perfrom soemthing on the staet by sednign the payload to the reducer and the reducer will change the state and then with the help of use selector method you can 
